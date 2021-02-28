@@ -1,0 +1,13 @@
+.bottom-footer {
+  padding: 20px 0;
+}
+.bottom-footer p {
+  margin-bottom: 0;
+}
+a:hover {
+  color: #1c53ba;
+  text-decoration: none;
+}
+a {
+  color: #252a2b;
+}

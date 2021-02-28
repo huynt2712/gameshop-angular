@@ -1,0 +1,50 @@
+* {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* General */
+p {
+  margin: 0 0 10px 0;
+  line-height: 21px;
+}
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #252a2b;
+}
+body {
+  line-height: 1.4;
+  font-size: 14px;
+  color: #252a2b;
+  overflow-x: hidden;
+  background: #fff;
+}
+.container-fluid {
+  max-width: 1600px;
+  padding: 0 85px !important;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: #252a2b;
+  line-height: 1.1;
+}
+a {
+  transition: opacity 150ms linear, color 150ms linear, background 150ms linear;
+}
+img {
+  max-width: 100%;
+}
+p {
+  margin: 0 0 10px 0;
+  line-height: 21px;
+}

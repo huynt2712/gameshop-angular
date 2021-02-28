@@ -1,0 +1,9 @@
+.topbar {
+  background-color: #1ca8ff;
+  color: #ffffff;
+  font-size: 12px;
+}
+.topbar-content p {
+  padding: 4px 0;
+  margin-bottom: 0;
+}

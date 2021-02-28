@@ -1,0 +1,42 @@
+/* Home Slider */
+::ng-deep .owl-theme .owl-dots {
+  position: absolute;
+  bottom: 28px;
+  text-align: center;
+  width: 100%;
+}
+::ng-deep .owl-theme .owl-dots .owl-dot {
+  display: inline-block;
+}
+::ng-deep .owl-theme .owl-dots .owl-dot.active span {
+  background-color: #fff;
+}
+::ng-deep .owl-theme .owl-dots .owl-dot span {
+  position: relative;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+  border: 2px solid #fff;
+  transition: color 0.2s ease-in-out, backround-color 0.2s ease-in-out;
+}
+::ng-deep .owl-theme .owl-dots .owl-dot:not(.active):hover span {
+  background-color: transparent;
+}
+/* Main banner */
+::ng-deep .block-banner-category {
+  position: relative;
+  overflow: hidden;
+  background-color: #f4f4f4;
+  margin: 4px 2px;
+}
+::ng-deep .block-banner-category a.link-banner {
+  display: block;
+}
+::ng-deep .ratiobox {
+  position: relative;
+  display: block;
+}
